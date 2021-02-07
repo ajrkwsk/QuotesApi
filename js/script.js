@@ -21,6 +21,8 @@ function getQuote() {
     .then(data => {
         $quote.innerHTML = data.content;
         $author.innerHTML = data.author;
+        const main = document.querySelector('main');
+        main.style.alignItems = "center";
     })
     .catch(error => console.log(error))
 }
