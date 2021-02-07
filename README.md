@@ -1,4 +1,4 @@
-#QuotesApi
+QuotesApi
 
 https://ajrkwsk.github.io/QuotesApi/
 
