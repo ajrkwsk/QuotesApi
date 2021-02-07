@@ -1,0 +1,48 @@
+*
+    box-sizing: border-box
+    margin: 0
+    padding: 0
+
+body
+    font-family: sans-serif
+    background-size: 100% 100%
+    background-image: url('https://cdn.pixabay.com/photo/2021/01/28/03/13/person-5956897_960_720.jpg')
+    background-repeat: no-repeat
+
+main
+    display: flex
+    flex-direction: column
+    // align-items: center
+    text-align: center
+    justify-content: center
+    margin: 10px auto
+    width: 100%
+    max-width: 1200px
+    height: calc( 100vh - 20px )
+    
+.box
+    height: 250px
+    padding: 7% 5% 0 5%
+    color: #f0e6e6
+    background-color: rgba(0, 0, 0, .7)
+    border: 2px solid black
+    
+.author
+    padding-top: 2%
+    font-style: italic
+    
+.btn
+    height: 60px
+    width: 160px
+    margin-top: 15px
+    font-weight: bold
+    text-transform: uppercase
+    background: none
+    color: white
+    border: 2px solid black
+    background-color: rgba(0, 0, 0, .6)
+    transition: background-color .3s, border .3s
+
+.btn:hover
+    background-color: rgba(0, 0, 0, .3)
+    border: none
