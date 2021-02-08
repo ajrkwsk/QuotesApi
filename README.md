@@ -1,5 +1,3 @@
-QuotesApi
-
 https://ajrkwsk.github.io/QuotesApi/
 
 Aplikacja służąca do pobierania cytatów z API (https://quotable.io/random), która będzie wyświetlała na ekranie randomowo wybrany cytat.
