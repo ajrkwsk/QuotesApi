@@ -21,10 +21,12 @@ function getQuote() {
     .then(data => {
         $quote.innerHTML = data.content;
         $author.innerHTML = data.author;
-        // const main = document.querySelector('main');
-        // main.style.alignItems = "center";
+        $quote.classList.add('style-animation');
+        $author.classList.add('style-animation');
     })
     .catch(error => console.log(error))
+    $quote.classList.remove('style-animation');
+    $author.classList.remove('style-animation');
 }
 
 const prepereDOMEvents = () => {
